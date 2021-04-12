@@ -4,7 +4,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 class SisopModel (
-    var name: String ?= ""
-//    var logo: Int
+    var name: String ?= "",
+    var logo: Int
 ) : Parcelable
 
